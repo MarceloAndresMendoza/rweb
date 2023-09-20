@@ -6,10 +6,10 @@ export const Index = () => {
   const redirect = () => {
     setTimeout(() => {
       window.location.href = 'https://doblefoco.cl';
-    }, 2000);
+    }, 3000);
   }
   useEffect(() => {
-    // redirect();
+    redirect();
   }, [])
 
   return (
