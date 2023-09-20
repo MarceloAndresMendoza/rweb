@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import backdrop from './assets/coding.jpg';
+import logo from './assets/dbf.png';
 
 export const Index = () => {
   const redirect = () => {
@@ -8,12 +9,13 @@ export const Index = () => {
     }, 2000);
   }
   useEffect(() => {
-    redirect();
+    // redirect();
   }, [])
 
   return (
     <main className='flex flex-col justify-center items-center w-screen h-screen text-white'>
       <div className='flex flex-col gap-4 items-center'>
+        <img src={ logo } alt='Our logo' className='w-32'/>
         <h1 className='text-4xl'>DobleFoco Web Services</h1>
         <h2 className='text-sm'>Espere un momento...</h2>
       </div>
