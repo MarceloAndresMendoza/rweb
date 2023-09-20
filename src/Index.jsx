@@ -14,7 +14,7 @@ export const Index = () => {
           <p><NavLink to='/brand' className='p-4 font-bold'>Kit de marca</NavLink></p>
         </div>
       </div>
-      <img className='absolute -z-10 object-cover h-screen w-screen opacity-50' src={backdrop} alt='Coding background image' />
+      <img className='absolute -z-10 object-cover h-screen w-screen opacity-40' src={backdrop} alt='Coding background image' />
       <div className='absolute bg-black -z-20 w-screen h-screen'></div>
     </main>
   )
